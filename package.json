@@ -1,5 +1,5 @@
 {
-  "name": "run-scripts",
+  "name": "run-app",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ClaytonHunt/run-scripts.git"
+    "url": "git+https://github.com/ClaytonHunt/run-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ClaytonHunt/run-scripts/issues"
+    "url": "https://github.com/ClaytonHunt/run-app/issues"
   },
-  "homepage": "https://github.com/ClaytonHunt/run-scripts#readme",
+  "homepage": "https://github.com/ClaytonHunt/run-app#readme",
   "dependencies": {
     "nsp": "^2.6.3"
   }

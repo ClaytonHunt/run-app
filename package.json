@@ -1,15 +1,15 @@
 {
   "name": "run-app",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "",
   "main": "index.js",
   "bin": {
-    "run-app": "./run-app.js"
+    "angular-scripts": "./bin/angular-scripts.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart": "npm install",
-    "postinstall": "nsp check"
+    "security-check": "nsp check",
+    "postinstall": "npm run security-check"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/ClaytonHunt/run-app#readme",
   "dependencies": {
+    "chalk": "^1.1.3",
+    "cross-spawn": "^5.1.0",
     "nsp": "^2.6.3"
   }
 }

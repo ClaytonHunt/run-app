@@ -1,8 +1,9 @@
 'use strict';
 
+const path = require("path");
 const chalk = require('chalk');
-const securityCheck = require('../run-security-check');
 const webPack = require('../webpackRunner').serve;
+const securityCheck = require('../run-security-check');
 
 
 'use strict';
